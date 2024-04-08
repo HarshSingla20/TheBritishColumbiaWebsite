@@ -1,0 +1,171 @@
+<!-- Summary : The HTML code represents a web page titled "Places to visit in British Columbia, Canada." The page features a header with a logo, navigation links, and a "Mail Us" button. It showcases images and descriptions of various tourist destinations in British Columbia, divided into rows. A "Show More" button allows users to reveal additional rows of destinations using JavaScript. The footer section includes contact information and links to privacy policy, terms, and social media icons. The page is styled with CSS, and Font Awesome is used for icons. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Places to visit in British Columbia, Canada</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <span class="logo"><img src="HomeImages/pin.png" alt="" />LOCATOR</span>
+
+      <nav>
+        <ul class="navLinks">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">British Columbia</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+      <a class="button" href="mailto:locatorOfBC@gmail.com"
+        ><button>Mail Us</button>
+      </a>
+    </header>
+
+    <div class="mainContainer">
+      <img src="HomeImages/MainImage.jpg" alt="" />
+
+      <div class="heading">
+        <h2>Places to visit in British Columbia</h2>
+      </div>
+
+      <!-- 1st Row  -->
+
+      <div class="bigCard">
+        <div class="placesCard">
+          <img src="HomeImages/StanleyPark.jpg" alt="" />
+          <span>STANLEY PARK</span>
+        </div>
+        <div class="placesCard">
+          <img src="HomeImages/sunken-garden.jpg" alt="" />
+          <span>THE BUTCHERED GARDEN</span>
+        </div>
+        <div class="placesCard">
+          <img src="HomeImages/peak-2-peak-gondola-photo.jpg" alt="" />
+          <span>GONDOLA PEAK</span>
+        </div>
+      </div>
+
+      <!-- 2nd Row  -->
+
+      <div class="bigCard">
+        <div class="placesCard">
+          <img src="HomeImages/steller-sea-lion-pup.jpg" alt="" />
+          <span>VANCOUVER AQUARIUM</span>
+        </div>
+        <div class="placesCard">
+          <img src="HomeImages/early-morning-on-the.jpg" alt="" />
+          <span>INNER HARBOUR</span>
+        </div>
+        <div class="placesCard">
+          <img src="HomeImages/Museum.jpg" alt="" />
+          <span>MUSEUM OF ANTROPOLOGY</span>
+        </div>
+      </div>
+
+      <!-- 3rd Row  -->
+
+
+      <div id="hiddenCode" style="display: none;">
+
+        <div class="bigCard">
+          <div class="placesCard">
+            <img src="HomeImages/WrathMuseum.jpg" alt="" />
+            <span>ROYAL BC MUSEUM</span>
+          </div>
+          <div class="placesCard">
+            <img src="HomeImages/EmeraldLake.jpg" alt="" />
+            <span>EMERALD LAKE</span>
+          </div>
+          <div class="placesCard">
+            <img src="HomeImages/VanDusenGarden.jpg" alt="" />
+            <span>VAN-DUSEN BOTANICAL GARDEN</span>
+          </div>
+        </div>
+  
+        <!-- 4th Row  -->
+  
+        <div class="bigCard">
+          <div class="placesCard">
+            <img src="HomeImages/ChestermanBeach.jpg" alt="" />
+            <span>CHESTERMAN BEACH</span>
+          </div>
+          <div class="placesCard">
+            <img src="HomeImages/LegislativeAssemblyOfBC.jpg" alt="" />
+            <span>LEGISLATIVE ASSEMBLY OF BC</span>
+          </div>
+          <div class="placesCard">
+            <img src="HomeImages/PacificRimNationalPark.jpg" alt="" />
+            <span>PACIFIC RIM NATIONAL PARK</span>
+          </div>
+        </div>
+  
+        <!-- 5th Row  -->
+  
+        <div class="bigCard">
+          <div class="placesCard">
+            <img src="HomeImages/MyraCanyonPark.jpg" alt="" />
+            <span>MYRA CANON PARK</span>
+          </div>
+          <div class="placesCard">
+            <img src="HomeImages/RainForestTrail.jpg" alt="" />
+            <span>RAINFOREST TRAIL</span>
+          </div>
+          <div class="placesCard">
+            <img src="HomeImages/TheAquaBus.jpg" alt="" />
+            <span>THE AQUABUS</span>
+          </div>
+        </div>
+
+      </div>
+
+      
+
+      <div class="primaryButton" id="toggleButton">
+        <button> Show More<i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+
+    <!-- footer section  -->
+
+    <div class="heading">
+      <h2>Contact Us</h2>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="contactNumber">123-456-7890</div>
+
+        <div class="email">locatorOfBC@gmail.com</div>
+
+        <div class="address">
+          <p>Dunsmuir Street Executive Center</p>
+          <p>777 Dunsmuir Street</p>
+          <p>17th Floor</p>
+          <p>Vancouver, British Columbia V7Y 1K4</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="subFooter" id="footerSection">
+      <div class="subFooterSection">
+        <a href="#" class="hoverLink">Privacy policy</a>
+        <a href="#" class="hoverLink">Terms & Condtions</a>
+        <a href="#" class="hoverLink">Security Information</a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <!--
+        
+      -->
+    <script
+      src="https://kit.fontawesome.com/61b1ea64b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
